@@ -7,27 +7,22 @@
 #include<stdio.h>
 #include<conio.h>
 
-int compute (int i, int num, int *s)
-{
-	for(i = 1, *s = 0; i < num; i++) 
-	{
-		if((num % i) == 0)
-		{
+int compute (int i, int num, int *s) {
+	for(i = 1, *s = 0; i < num; i++) {
+		if((num % i) == 0) {
 			printf("%d ", i);
 			*s += i;
 		}		
 	}
 }
 
-int KOMPUTE (int s, int num)
-{
+int KOMPUTE (int s, int num) {
 	if(s < num) printf("\n%d < %d is DEFICIENT", s, num);
 	else if(s == num) printf("\n%d = %d is PERFECT", s, num);
 	else printf("\n%d > %d is ABUNDANT", s, num);
 }
 
-main()
-{
+main() {
 	int N, div, sum;
 	
 	printf("Input N : ");

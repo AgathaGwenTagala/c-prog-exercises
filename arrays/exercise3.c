@@ -8,8 +8,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
-{
+main() {
 	int a[5], n;
 	float sum, ave;
 	char name[30];

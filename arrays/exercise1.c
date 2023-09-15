@@ -10,8 +10,7 @@
 #include<conio.h>
 #include<math.h>
 
-main()
-{
+main() {
 	int X[20], Y[20], Z[20], N;
 	float sum;
 	

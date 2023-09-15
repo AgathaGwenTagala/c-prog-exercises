@@ -6,15 +6,13 @@
 
 #include <stdio.h>
 
-double triangle (double a, double b, double c)
-{
+double triangle (double a, double b, double c) {
 	if (a == b && a == b) printf("\nThis is an EQUILATERAL triangle.");
     else if (a == b || b == c || a == c) printf("\nThis is an ISOSCELES triangle.");
     else printf("\nThis is a SCALENE triangle.");
 }
 
-int main()
-{
+int main() {
 	double x, y, z;
 	printf("Enter three sides of triangle: ");
     scanf("%lf %lf %lf", &x, &y, &z);

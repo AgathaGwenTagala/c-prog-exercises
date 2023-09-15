@@ -7,15 +7,13 @@
 #include<stdio.h>
 #include<conio.h>
 
-int TRIANGLE (int s1, int s2, int s3)
-{
+int TRIANGLE (int s1, int s2, int s3) {
 	if(s1 == s2 && s2 == s3) printf("\nThis triangle is EQUILATERAL");
 	else if(s1 == s2 || s1 == s3 || s2 == s3) printf("\nThis triangle is ISOSCELES");
 	else printf("\nThis triangle is SCALENE");
 }
 
-void main()
-{
+void main() {
 	int s1, s2, s3;
 	
 	printf("Side 1 : ");

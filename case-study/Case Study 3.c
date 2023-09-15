@@ -5,8 +5,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-int time (int mtime)
-{
+int time (int mtime) {
 	int hours, minutes;
 	hours = mtime / 100;
 	minutes = mtime - hours * 100;
@@ -18,8 +17,7 @@ int time (int mtime)
 	else printf("The time in 12-hour notation is %02d:%02d AM", hours-12, minutes);
 }
 
-main()
-{
+main() {
 	int mtime;
 
 	printf("Input time in 24-hour notation: ");

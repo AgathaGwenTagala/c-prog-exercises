@@ -5,8 +5,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-main()
-{
+main() {
 	int a[11], b[10], n;
 	
 	printf("Enter 11 numbers: ");
