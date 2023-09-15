@@ -1,8 +1,7 @@
 #include<stdio.h>	
 #include<conio.h>
 #include<math.h>		
-main (void)
-{
+main (void) {
 	float a, b, c;
 	
 	printf("Side A = ");

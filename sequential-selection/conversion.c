@@ -1,7 +1,6 @@
 #include<stdio.h>	
 #include<conio.h>		
-main (void)
-{
+main (void) {
 	char name[20];
 	int y;
 	float m, d, s;

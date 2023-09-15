@@ -1,7 +1,6 @@
 #include<stdio.h>	
 #include<conio.h>	
-main (void)
-{
+main (void) {
 	char ans;
 	int a, b, h;
 	
@@ -9,8 +8,7 @@ main (void)
 	scanf("%s", &ans);
 	
 	
-	if (ans == 'R' || ans == 'r')
-	{
+	if (ans == 'R' || ans == 'r') {
 		printf("\nInput base: ");
 		scanf("%d", &b);
 		printf("\nInput height: ");
@@ -19,8 +17,7 @@ main (void)
 		printf("\nArea of a Rectangle: %d", a);	
 	}
 		
-	else if (ans == 'T' || ans == 't')
-	{
+	else if (ans == 'T' || ans == 't') {
 		printf("\nInput base: ");
 		scanf("%d", &b);
 		printf("\nInput height: ");

@@ -5,18 +5,15 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
-{
+void main() {
 	int n, f, s, h;
 	
 	printf("Input number: ");
 	scanf("%d", &n);
 	printf("Factors are ", n);
 	
-	for (f = 1, s = 0; f < n; ++f)
-	{
-		if (n % f == 0)
-		{
+	for (f = 1, s = 0; f < n; ++f) {
+		if (n % f == 0) {
 			printf("%d ", f);
 			s += f;
 		}

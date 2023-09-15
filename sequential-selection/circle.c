@@ -1,7 +1,6 @@
 #include<stdio.h>	
 #include<conio.h>		
-main (void)
-{
+main (void) {
 	float r, pi = 3.14, a, c;
 	
 	printf("Radius of a circle = ");

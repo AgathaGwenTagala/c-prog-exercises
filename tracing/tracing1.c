@@ -1,20 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 
-void kar1(char *c, char b, char *a)
-{
+void kar1(char *c, char b, char *a) {
 	*a = 'c'; b = 'a'; *c = 'b';
 	printf("%c %c %c\n", *a, b, *c);
 }
 
-void kar2(char *b, char *a, char *c)
-{
+void kar2(char *b, char *a, char *c) {
 	*a = 'b'; *b = 'c'; *c = 'a';
 	printf("%c %c %c\n", *a, *b, *c);
 }
 
-main()
-{
+main() {
 	char a = 'a', b = 'b', c = 'c';
 	
 	printf("%c %c %c\n", a, b, c);

@@ -7,17 +7,14 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
-{
+void main() {
 	int bucket, hour, cat;
 	
-	for (bucket = 0; bucket < 2452; hour++)
-	{
+	for (bucket = 0; bucket < 2452; hour++)	{
 		bucket += 162;
 		//printf("hour %d. current total drops is %d.\n", hour, bucket);
 		
-		if (hour % 3 == 0)
-		{
+		if (hour % 3 == 0) {
 			bucket -= 28;
 			cat += 28;
 			//printf("hour %d. current total drops is %d. cat lick %d\n", hour, bucket, cat);
@@ -25,7 +22,6 @@ void main()
 	}
 	
 	printf("The bucket was filled at %d hours.\nMuning licked %d drops of wine.\n", hour-1, cat);
-	
 	getch();
 }
 

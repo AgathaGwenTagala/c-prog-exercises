@@ -7,22 +7,18 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
-{
+void main() {
 	int dow, bar, noh = 0, ml = 0;
 	
-	for (dow = 0; dow < 2452; dow += 162)
-	{
+	for (dow = 0; dow < 2452; dow += 162) {
 		noh ++;
-		if (noh % 3 == 0)
-		{
+		if (noh % 3 == 0) {
 			dow -= 28;
 			ml += 28;
 		}
 	}
 	
 	printf("The bucket was filled in %d hours.\nMuning licked %d drops of wine.\n", noh, ml);
-
 	getch();
 }
 

@@ -1,14 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
 
-void kar(char *a, char *b, char *c)
-{
+void kar(char *a, char *b, char *c) {
 	*a = 'c'; *b = 'a'; *c = 'b';
 	printf("%c %c %c\n", *a, *b, *c);
 }
 
-main()
-{
+main() {
 	char a = 'c', b = 'b', c = 'a';
 	
 	printf("%c %c %c\n", a, b, c);

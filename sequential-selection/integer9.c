@@ -1,7 +1,6 @@
 #include<stdio.h>	
 #include<conio.h>		
-main (void)
-{
+main (void) {
 	int num;
 	
 	printf("INPUT ANY POSITIVE INTEGER: ");

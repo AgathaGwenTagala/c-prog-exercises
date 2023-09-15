@@ -8,12 +8,10 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
-{
+void main() {
 	int day, gift;
 	
-	for(day = 1, gift = 0; day <= 12; day++)
-    {
+	for(day = 1, gift = 0; day <= 12; day++) {
         gift = gift + day;
     }
     

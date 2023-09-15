@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-main(void)
-{
+
+main(void) {
     int rc, cc, age;
     float h;
     
@@ -10,13 +10,11 @@ main(void)
 	printf("\n1 - YES\t\t0 - NO\t\t");
     scanf("%d" ,&rc);
      
-	if (rc == 1)
-	{
+	if (rc == 1) {
 		printf("\nACCEPTED!");
 	}
 	
-	else 
-	{
+	else {
 		printf("\nInput your height: ");
         scanf("%f", &h);
         printf("Input your age: ");
@@ -25,16 +23,13 @@ main(void)
 		printf("\n1 - YES\t\t0 - NO\t\t");
 		scanf("%d", &cc);
         	
-        if (h >= 200 && age >= 21 && age <= 25 && cc == 1)
-        {
+        if (h >= 200 && age >= 21 && age <= 25 && cc == 1) {
         	printf("\nACCEPTED!");
 		}
 			
-		else
-		{
+		else {
 			printf("\nDECLINED!");					
 		}
 	}
-        
     getch();
 }
