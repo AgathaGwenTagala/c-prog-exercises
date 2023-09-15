@@ -1,4 +1,4 @@
-/*PROGRAMMING EXERCISE 3-2
+/*ARRAY EXERCISE 2
   Write a program that would store 11 numbers in a one-dimensional array. Store the sum of the two succeeding pairs 
   in another array. Hence, only 10 integers will be stored in the second array.
 */
