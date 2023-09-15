@@ -1,4 +1,4 @@
-/*PROGRAMMING EXERCISE 5-5
+/*PROGRAMMING EXERCISE 3-3
   An instructor gives a multiple choice test which consists of 5 questions, each of which is answered by a choice of one 
   of the numbers one to five. The program should grade the test. If the student choice is 1 give 1 point. 
   If the choice is 2, give 2 points. 3 points if choice answer is 3 and 4 pints for answer 4 and choice 5 is 5 points. 
