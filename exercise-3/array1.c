@@ -16,26 +16,22 @@ main()
 	float sum;
 	
 	printf("Enter 20 integers: ");
-	for(N = 0; N < 20; N++)
-	{
+	for(N = 0; N < 20; N++)	{
 		scanf("%d", &X[N]);
 	}
 	
 	printf("\nEnter 20 integers: ");
-	for(N = 0; N < 20; N++)
-	{
+	for(N = 0; N < 20; N++)	{
 		scanf("%d", &Y[N]);
 	}
 	
 	printf("\nThe product of the elements in X and Y are ");
-	for(N = 0; N < 20; N++)
-	{
+	for(N = 0; N < 20; N++)	{
 		Z[N] = X[N] * Y[N];
 		printf("%d ", Z[N]);
 		sum += Z[N];
 	}
 	
 	printf("\n\nThe square root of the sum of the elements in Z is %.2f", sqrt(sum));
-	
 	getch();
 }
